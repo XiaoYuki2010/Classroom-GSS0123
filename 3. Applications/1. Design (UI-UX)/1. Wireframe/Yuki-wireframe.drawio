@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T12:51:18.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LjTvULr-z54UomlY63hD" version="20.8.23" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-02T12:53:21.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="e89e4jX8kpQc-qVC73iI" version="20.8.23" type="github" pages="6">
   <diagram name="menu-footer-404" id="03018318-947c-dd8e-b7a3-06fadd420f32">
-    <mxGraphModel dx="1936" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2772" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,9 +259,6 @@
         </mxCell>
         <mxCell id="0CIXLn1Lq19tNP59Gwiz-21" value="Value 1&lt;br&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;overflow=hidden;align=center;html=1;whiteSpace=wrap;spacingTop=-2;textDirection=ltr;textOpacity=90;spacing=0;" vertex="1" parent="1">
           <mxGeometry x="-200" y="580" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="0CIXLn1Lq19tNP59Gwiz-22" value="Value 1&lt;br&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;overflow=hidden;align=center;html=1;whiteSpace=wrap;spacingTop=-2;textDirection=ltr;textOpacity=90;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="-382.5" y="620" width="125" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0CIXLn1Lq19tNP59Gwiz-23" value="Value 1&lt;br&gt;" style="text;strokeColor=none;fillColor=none;verticalAlign=middle;overflow=hidden;align=center;html=1;whiteSpace=wrap;spacingTop=-2;textDirection=ltr;textOpacity=90;spacing=0;" vertex="1" parent="1">
           <mxGeometry x="-200" y="680" width="180" height="20" as="geometry" />
