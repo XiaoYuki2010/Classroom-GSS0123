@@ -1,15 +1,14 @@
 (function ($) {
   "use strict";
 
-  $(document).ready(function () {
-    // Mobile Menu Dropdown
-    const mobileNavToggler = document.querySelector(".nav--toggle");
-    const body = document.querySelector("body");
-    if (mobileNavToggler) {
-      mobileNavToggler.addEventListener("click", function () {
-        body.classList.toggle("nav-toggler");
-      });
+  $("ul.nav li.dropdown").hover(
+    function () {
+      $(this).find(".sub-menu").stop(true, true).delay(200).fadeIn(500);
+    },
+    function () {
+      $(this).find(".sub-menu").stop(true, true).delay(200).fadeOut(500);
     }
+  );
     // Mobile Menu Dropdown End
 
     // Mobile Submenu
@@ -350,8 +349,7 @@
       event.preventDefault();
       $("html, body").animate({ scrollTop: 0 }, 300);
     });
-  });
-})(jQuery);
+  });(jQuery);
 
 // Header Fixed On Scroll
 var bodySelector = document.querySelector("body");

@@ -10,14 +10,11 @@ body{
     padding:0;
 }
 .wrap{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100vw;
+    display: block;
     color: #A47CB0;
     font-size: 20px;
     font-weight: 500;
-    line-height: 15px;
+    line-height: 25px;
 }
 a{
     text-decoration: none;
@@ -27,13 +24,30 @@ a:hover{
     color:#F36C27;
     cursor: pointer;
 }
-.header{
+/* I.header */
+.wrap-header{
     position: fixed;
-    max-width: 100%;
-    margin: 0 auto;
-    height: 70px;
-    background-color: #EBEBEB;
+    width: 100%;
+    z-index: 1;
 }
+.header{
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+    height: 130px;
+    background-color: #EBEBEB;
+    padding-top: 5px;
+    /* padding-left: -40px;
+    padding-right: 40px; */
+    display: flex;
+    justify-content: center;
+}
+.header-container{
+    position: absolute;
+    width:1024px ;
+    max-height: 130px;
+}
+ /* 1.header-top */
 .header-top{
     position: relative;
     width: 1024px;
@@ -68,16 +82,19 @@ a:hover{
 .header-top-right span{
     width: fit-content;
     text-align: center;
+    padding: 0 10px 0 10px;
 }
+/* 2.header-bot */
 .header-bot{
     width: 100%;
-    min-height: 65px;
+    min-height: 55px;
     position: relative;
+    padding-top: 5px;
 }
 .header-bot-left{
     position: relative;
     width: 10%;
-    height: 65px;
+    height: 55px;
     float: left;
 }
 .header-bot-logo-container{
@@ -93,7 +110,7 @@ a:hover{
 }
 .header-bot-center{
     width: 70%;
-    height: 65px;
+    height: 55px;
     float: left;
     position: relative;
     display: flex;
@@ -103,7 +120,7 @@ a:hover{
 .header-bot-center-search{
     width: 100%;
     position: absolute;
-    height: 65px;
+    height: 55px;
     align-items: center;
     display: flex;
 }
@@ -131,16 +148,253 @@ a:hover{
     width: 40px;
     height: 36px;
     border: 1px solid #3d3d3d28;
-    background: #3d3d3d28;
+    /* background: #3d3d3d28; */
+    background: #EB5999;
     text-align: end;
     color: #fff;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 25px;
 }
+.searchButton:hover{
+    background:#F36C27;
+}
 .header-bot-right{
     width: 20%;
     float: left;
-    height: 65px;
-    background-color: blue;
+    height: 55px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bot-right-container{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.headerbutton{
+    border: 1px solid #3d3d3d28;
+    background: #3d3d3d28;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+    width: 40px;
+    height: 40px; 
+    text-align: center; 
+    border-radius: 25px 25px 25px 25px; 
+}
+.headerbutton:hover{
+    color:#F36C27;
+}
+.button-space{
+    padding:0 5px 0 5px;
+}
+
+/* --------nav ------- */
+#menu{
+    background-color: #EBEBEB;
+    color:#A47CB0 ;
+    max-width: 1024px;
+    height:50px;
+    position: relative;
+}
+.menu-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+}
+.menu-primary{
+    list-style-type: none;
+    width: 1024px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: end;
+    /* align-items: center; vô cáu keh1o được dịp báo thừ */
+
+    /*xoa dau tai thanh*/
+}
+#menu ul .menu-fix{ 
+    height:50px;
+    width:120px;
+    line-height: 50px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu    .sub-menu{
+    overflow: hidden;
+    width: 100px;
+    text-decoration: none;
+}
+
+#menu ul li:hover{
+    color:#F36C27;
+    cursor:pointer;
+}
+#menu ul li >.sub-menu{
+    display: none;
+    position: absolute;
+    text-align: left;
+}
+
+#menu ul li:hover .sub-menu{/* yeu cau xuat hien the duoi*/
+    display: block;
+    background-color: #EBEBEB;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    float:left;
+    margin: 0;
+    padding: 0 5px 0 10px;
+    text-align: left;
+}
+#menu ul li:last-child .sub-menu{
+    border-right: none;
+}
+.fa-angle-right{
+    TOP:50PX;
+    padding-left: 20PX;
+}
+
+
+
+/* -----section-banner------ */
+.section-banner{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding:160px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.section-banner-wrap{
+    position: relative;
+    width: 1024px;
+    height:250px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.section-banner-container{
+    width: 1024px;
+    height: 250px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.section-banner-img-container{
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-banner-img-container img{
+    width: 1024px;
+    height: 250px;
+    object-fit: cover;
+}
+.section-banner-text {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+.section-banner-text a{
+    color: #fff;
+}
+
+
+/* ---------section-intro-------- */
+.section-intro{
+    position: relative;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    padding-top:10px 0 10px;
+}
+.section-intro-container{
+    width: 1024px;
+    height: 100%;
+    background-color: #EBEBEB; 
+    padding-bottom: 20px;
+}
+.section-title{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+   height: 30px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.section-title h4{
+    display: flex;
+    justify-content: center;
+    color: #95BB3D;
+}
+.border-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 55px;
+}
+.border-slider span{
+    width: 70px;
+    border-top: solid 2px #000000;
+}
+.section-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    position: relative;
+    padding-top:70px;
+    text-align: center;
+} 
+.section-content span{
+    padding :0px 20px 20px 20px;
+}
+/* ------section-G-O----------- */
+.section-G-O{
+    position: relative;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+}
+.section-G-O-container{
+    width: 1024px;
+    height: fit-content;
+    padding:10px 0 20px;
+}
+.Section-G-O-left{
+    width: 49%;
+    position: relative;
+    float: left;
+    background-color: #EBEBEB;
+    margin-right: 10px; 
+    text-align: center;
+}
+
+.Section-G-O-right{
+    width: 49%;
+    position: relative;
+    float: left;
+    background-color: #EBEBEB;
+    margin-left: 10px; 
+    text-align: center;
 }
