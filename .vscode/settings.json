@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "baitap.C": "cpp"
-    }
+        "baitap.C": "cpp",
+        "struck-homework.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
