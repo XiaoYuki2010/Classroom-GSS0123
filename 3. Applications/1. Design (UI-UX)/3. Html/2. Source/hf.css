@@ -56,7 +56,7 @@ a:hover{
     padding-right: 40px; */
     display: flex;
     justify-content: center;
-    box-shadow: 0 2px 15px 1px rgb(0 0 0 / 25%);
+    box-shadow: 0 2px 30px 1px rgb(0 0 0 / 25%);
     border-radius: 3px;
 }
 .header-container{
@@ -950,7 +950,6 @@ a:hover{
     height: fit-content;
     width: fit-content;
     position: relative;
- 
 }
 .error-bottom{
     width: 100%;
@@ -965,7 +964,7 @@ a:hover{
     width: fit-content;
     padding:10px 10px 10px 10px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 25px;
     color:#FFF;
     background-color: #EB5999;
