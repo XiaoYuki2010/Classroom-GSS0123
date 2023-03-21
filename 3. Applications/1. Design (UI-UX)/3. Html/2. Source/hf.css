@@ -806,18 +806,56 @@ a:hover{
     width: 550px;
     border-top: dotted 2px #000000;
 }
-.Our-Offices{
+.FAQ-keylist{
     position: relative;
     display: flex;
     justify-content: center;
-    padding:10px 0 10px;
+    
     width: 100%;
 }
-.Our-Offices-container{
+.FAQ-keylist-container{
     width: 1024px;
     height: fit-content;
     background-color: #EBEBEB;
     position: relative;
     box-shadow: 0 2px 4px 1px rgb(0 0 0 / 25%);
     border-radius: 3px;
+    padding: 0 0 50px 0;
+}
+.FAQ-keylist-top{
+    width: 100%;
+    height: 100px;
+    padding: 50px 0 50px 0;
+}
+.FAQ-keylist-bottom{
+    width: 100%;
+    height: 100px; 
+    padding: 50px 0 50px 0;
+}
+.FAQ-keylist-img{
+    width: 33%;
+    height: 140px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+.FAQ-keylist-img-container{
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.FAQ-keylist-content{
+    position: relative;
+    width: auto;
+    height:fit-content;
+    margin-top:150px;
+    padding: 10px 0 10px 0;
+}
+.FAQ-keylist-img-container img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
