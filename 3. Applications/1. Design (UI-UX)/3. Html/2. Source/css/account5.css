@@ -1,3 +1,23 @@
+
+
+.container-wrap{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding:160px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    width: 1024px;
+    height:600px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px 1px rgb(0 0 0 / 25%);
+    border-radius: 3px;
+}
 .myaccounttitle {
     background-color: #95BB3D ;
     color: #EBEBEB;
