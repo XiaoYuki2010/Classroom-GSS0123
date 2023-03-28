@@ -24,6 +24,10 @@
     text-align: center;
     font-size: 2rem;
 }
+div.myaccounttitle{
+    height:3rem ;
+    
+}
 .linksbackground{
     text-decoration: none;
     color:#A47CB0;
@@ -58,11 +62,11 @@ div.container{
     padding-top: 20px;
     
 }
-div.col-sm-8 {
+div.wrap-form{
     box-sizing: border-box;
     background-color: #EBEBEB;
     box-sizing: border-box;
-    border:1px solid #50333333;   
+    border:1px solid #50333333; 
 }
 div.wrap-gotocart{
     text-align: right;
@@ -97,6 +101,7 @@ div.yourmail{
 .changelink{
     color:#A47CB0;
     font-size: 12px;
+    text-decoration:underline;
    
 }
 .changelink a:hover{
@@ -122,5 +127,9 @@ div.wrap-buttonsave{
     background-color:#EB5999;
     color:#ffffff;
 }
-
+li.list-group-item.active.bg-light.border{
+    display: block;
+    z-index: -100;
+    
+}
 

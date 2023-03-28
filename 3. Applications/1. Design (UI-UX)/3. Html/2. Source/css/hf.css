@@ -226,6 +226,7 @@ a:hover{
     justify-content: end;
     align-items: center;
     position: absolute;
+    z-index: 1000;
 }
 .menu-primary{
     list-style-type: none;
