@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product_detail.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"><title>product details</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="wrap-header">
+            <div class="header">
+                <div class="header-container">
+                    <div class="header-top">
+                        <div class="header-top-left">
+                            <span><a href="#">Account</a></span>
+                            <span><a href="#">Track Order</a></span>
+                            <span><a href="#">Support</a></span>
+                        </div>
+                        <div class="header-top-right">
+                            <span><a>Lang</a></span>
+                        </div>
+                    </div>
+                    <div class="header-bot">
+                        <div class="header-bot-left">
+                            <div class="header-bot-logo-container">
+                                <div class="header-bot-logo">
+                                    <img src="../2. Source/img/logoG75x75.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-bot-center">
+                            <div class="header-bot-center-search">
+                                <div class="header-bot-center-search-container">
+                                    <input type="text" class="header-search" placeholder="Search GOAP" />
+                                    <button type="submit" class="searchButton">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-bot-right">
+                            <div class="header-bot-right-container">
+                                <button type="submit" class="headerbutton heartbutton">
+                                    <i class="fa fa-heart"></i>
+                                </button>
+                                <div class="button-space"></div>
+                                <button type="submit" class="headerbutton bagbutton">
+                                    <i class="fa fa-shopping-bag"></i>
+                                </button>
+                                <div class="button-space"></div>
+                                <button type="submit" class="headerbutton userbutton">
+                                    <i class="fa fa-user"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu">
+                        <div class="menu-container">
+                            <ul class="menu-primary">
+                                <li class="menu-fix"><a href="#">Trang Chủ</a></li>
+                                <li class="menu-fix">
+                                    <a href="#">Sản Phẩm</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">sản phẩm nhồi bông</a></li>
+                                        <li>
+                                            <a href="#">sản phẩm nhồi bông</a><i class="fa fa-angle-right"></i>
+                                        </li>
+                                        <li><a href="#">sản phẩm nhồi bông</a></li>
+                                        <li><a href="#">sản phẩm nhồi bông</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-fix"><a href="#">Tin Tức</a></li>
+                                <li class="menu-fix"><a href="#">Blog</a></li>
+                                <li class="menu-fix"><a href="#">Giải Trí</a></li>
+                                <!-- <ul class="sub-menu2">
+                                                <li class="menu-fix2"><a href="#">sản phẩm nhồi bông</a></li>
+                                                <li class="menu-fix2"><a href="#">sản phẩm nhồi bông</a></li>
+                                            </ul> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-banner">
+            <div class="section-banner-wrap">
+                <div class="section-banner-container">
+                    <div class="section-banner-img-container">
+                        <img src="../2. Source/img/Sea-of-Lightssquare.jpg" alt="" />
+                    </div>
+                    <div class="section-banner-text">
+                        <span>
+                            <a href="#">index</a>
+                            <i class="fa fa-angle-right"></i>
+                            <a href="#">About Us</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-main-container">
+            <div class="container wrap-product-detail">
+                <div class="headline-title">
+                    <nav aria-label="breadcrumb">
+                        <ul class="flex-gid">
+                            <li><a href="#"><h3>Trang chủ</h3></a></li>
+                            <li class="sp-content"></li>
+                            <li><h3>Phụ nữ</h3></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="infor-item" class="product-details">
+                    <div class="container px-4">
+                        <div class="row gx-5 wrapper-container-gallery">
+                            <div class="col slide-show-gallery container">
+                                <div class="big-img big-show-img">
+                                    <div class="img-big mySlides">
+                                        <img src="img/shirt_black1.jpg" alt="">
+                                    </div>
+                                    <div class="img-big mySlides">
+                                        <img src="img/shirt_black2.jpg" alt="">
+                                    </div>
+                                    <div class="img-big mySlides">
+                                        <img src="img/shirt_black3.jpg" alt="">
+                                    </div>
+                                    <div class="img-big mySlides">
+                                        <img src="img/shirt_black4.jpg" alt="">
+                                    </div>
+                                    <a class="btn-prev prev" onclick="plusSlides(-1)">❮</a>
+                                    <a class="btn-next next" onclick="plusSlides(1)">❯</a>
+                                
+                                <div class="caption-container">
+                                    <p class="caption"></p>
+                                </div>
+                                <div class="small-list-img slide-small-img row">
+                                    <div class="small-img column">
+                                        <img class="demo cursor" src="img/shirt_black1.jpg" alt="" onclick="currentSlide(1)">
+                                    </div>
+                                    <div class="small-img column">
+                                        <img class="demo cursor" src="img/shirt_black2.jpg" alt="" onclick="currentSlide(2)">
+                                    </div>
+                                    <div class="small-img column">
+                                        <img class="demo cursor" src="img/shirt_black3.jpg" alt="" onclick="currentSlide(3)">
+                                    </div>
+                                    <div class="small-img column">
+                                        <img class="demo cursor" src="img/shirt_black4.jpg" alt="" onclick="currentSlide(4)">
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col infor-details-buy">
+                                <div class="p-3 border bg-light wrapper-product-items">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="name-item">
+                                            <h3 class="name"><b>Tên sản phẩm</b></h3>
+                                        </div>
+                                        <div class="brand-name">
+                                            <a class="brand-link" href="#">Brand</a>
+                                        </div>
+                                    </div>
+                                    <div class="container px-4 text-center">
+                                        <div class="">
+                                            <div class="col">
+                                                <div class="money"><del><small> 265.000đ</small></del> 225.000đ</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form action="" method="get" class="form-example choice-list">
+                                        <div class="choice-size mb-3 form-example">
+                                            <b>SIZE :</b>
+                                            <br>
+                                            <div class="row form-example">
+                                                <div class="col form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        S
+                                                    </label>
+                                                </div>
+                                                <div class="col form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        M
+                                                    </label>
+                                                </div>
+                                                <div class="col form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        L
+                                                    </label>
+                                                </div>
+                                                <div class="col form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        XL
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="choice-color mb-3 form-example">
+                                            <div class="choice-img-color">
+                                                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                                                <label class="btn" for="option1">
+                                                    <div class="img-color">
+                                                    <img src="img/shirt_black1.jpg" alt="">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="choice-img-color">
+                                                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" checked>
+                                                <label class="btn" for="option2">
+                                                    <div class="img-color">
+                                                        <img src="img/shirt_black2.jpg" alt="">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="choice-img-color">
+                                                <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" checked>
+                                                <label class="btn" for="option3">
+                                                    <div class="img-color">
+                                                        <img src="img/shirt_black3.jpg" alt="">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="choice-img-color">
+                                                <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off" checked>
+                                                <label class="btn" for="option4">
+                                                    <div class="img-color">
+                                                        <img src="img/shirt_black4.jpg" alt="">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="buttons_added mb-3 form-example">
+                                            <input class="minus is-form" type="button" value="-">
+                                            <input aria-label="quantity" class="input-qty" max="10" min="1" name=""
+                                                type="number" value="1">
+                                            <input class="plus is-form" type="button" value="+">
+                                        </div>
+                                        <div class="btn-buy_bag form-example">
+                                            <button type="submit" class="btn choice-color-buy btn-primary mb-3">Buy</button>
+                                            <button type="submit" class="btn choice-color-buy btn-primary mb-3">Take in bag</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list_details details-table-wrapper table-responsive">
+                    <div class="table-caption">
+                        <h3><b>CHI TIẾT SẢN PHẨM</b></h3>
+                    </div>
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <th>Danh mục:</th>
+                                <td>Quần áo</td>
+                            </tr>
+                            <tr>
+                                <th>Xuất xứ:</th>
+                                <td>Việt Nam</td>
+                            </tr>
+                            <tr>
+                                <th>Kích thước:</th>
+                                <td>size s</td>
+                            </tr>
+                            <tr>
+                                <th>Vật liệu:</th>
+                                <td>coton thun</td>
+                            </tr>
+                            <tr>
+                                <th>Điểm đặc biệt:</th>
+                                <td>Rách tay</td>
+                            </tr>
+                            <tr>
+                                <th>Giới tính:</th>
+                                <td>Nam/nữ</td>
+                            </tr>
+                            <tr>
+                                <th>Thiết kế :</th>
+                                <td>Trơn</td>
+                            </tr>
+                            <tr>
+                                <th>Kiểu tay:</th>
+                                <td>2 dây</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="scroll-wrap product-list">
+                    <a href="">
+                        <h3><b>Sản phẩm liên quan</b></h3>
+                    </a>
+                    <div class="list-choice-see section-scoll">
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt4.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price money"><del><small>265.000đ</small></del> 210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt1.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt3.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt_black1.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt4.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt_heron1.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt_heron2.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt_black3.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-wrap product-list">
+                    <a href="">
+                        <h3><b>Sản phẩm đã xem</b></h3>
+                    </a>
+                    <div class="list-choice-see section-scoll">
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt4.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price money"><del><small>265.000đ</small></del> 210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt1.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt3.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt_black1.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt4.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt_heron1.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt_heron2.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-items">
+                            <div class="product-card">
+                                <a href="">
+                                    <div class="product-tumb">
+                                        <img src="img/shirt_black3.jpg" alt="">
+                                    </div>
+                                    <div class="product-details">
+                                        <h4><a href="">Áo thun</a></h4>
+                                        <div class="product-bottom-details">
+                                            <div class="product-price"><small>265.000đ</small>210.000đ</div>
+                                            <div class="product-links">
+                                                <a href=""><i class="fa fa-heart"></i></a>
+                                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <div class="footer-column-wrap">
+                        <div class="footer-logo-wrap">
+                            <div class="footer-logo">
+                                <div class="footer-logo-container">
+                                    <ul>
+                                        <li>
+                                            <img src="../2. Source/img/logoG75x75.png" alt="" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-list">
+                            <div class="footer-list-container">
+                                <ul>
+                                    <h4>About Us</h4>
+                                    <li>
+                                        <a href="#"><span>Company Infomation</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-list-container">
+                                <ul>
+                                    <h4>Famous brand</h4>
+                                    <li>
+                                        <a href="#"><span>Louis Vuitton ,Hermes, Prada,Chanel,Gucci,
+                                                Versance,Christian Dior, Burberry.........</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-column-wrap">
+                        <div class="footer-list">
+                            <div class="footer-list-container">
+                                <ul>
+                                    <h4>women's fashion and accessories</h4>
+                                    <li>
+                                        <a href="#"><span>Clothing</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Pajamas & Underwear</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Shoes</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Accessories</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>handBags</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Jewelry</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Watches</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Glass</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-column-wrap">
+                        <div class="footer-list">
+                            <div class="footer-list-container">
+                                <ul>
+                                    <h4>Account</h4>
+                                    <li>
+                                        <a href="#"><span>Login</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Register</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Shoes</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Forgot Password</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>WishList</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Tracking order</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Profile Update</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="footer-column-wrap">
+                        <div class="footer-list">
+                            <div class="footer-list-container">
+                                <ul>
+                                    <h4>Support</h4>
+                                    <li>
+                                        <a href="#"><span>FAQ's</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Return Policy</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Shipping Policy</span></a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <h4>Payment Method</h4>
+                                    <li>
+                                        <img src="../2. Source/img/payment-card-discover.png" alt="" />
+                                        <img src="../2. Source/img/pay-visa.png" alt="" />
+                                        <img src="../2. Source/img/payment-card-mastecard.png" alt="" />
+                                        <img src="../2. Source/img/payment-napas.png" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="sub-footer-container">
+                <div class="sub-footer-left">
+                    <ul>
+                        <div class="sub-footer-left-container">
+                            <h4>Connect With Us</h4>
+                            <li>
+                                <img src="../2. Source/img/payment-card-discover.png" alt="" />
+                                <img src="../2. Source/img/pay-visa.png" alt="" />
+                                <img src="../2. Source/img/payment-card-mastecard.png" alt="" />
+                                <img src="../2. Source/img/payment-napas.png" alt="" />
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="sub-footer-right">
+                    <div class="copy-right-text">
+                        <span>© Developed by 2023 <a>Team Classroom-GSS0123</a>All rights
+                            reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script class="slideshow-gallery-container">
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+    <script class="listdetails-table-reponsive">
+        $('input.input-qty').each(function () {
+            var $this = $(this),
+                qty = $this.parent().find('.is-form'),
+                min = Number($this.attr('min')),
+                max = Number($this.attr('max'))
+            if (min == 0) {
+                var d = 0
+            } else d = min
+            $(qty).on('click', function () {
+                if ($(this).hasClass('minus')) {
+                    if (d > min) d += -1
+                } else if ($(this).hasClass('plus')) {
+                    var x = Number($this.val()) + 1
+                    if (x <= max) d += 1
+                }
+                $this.attr('value', d).val(d)
+            })
+        })
+    </script>
+</body>
+
+</html>
