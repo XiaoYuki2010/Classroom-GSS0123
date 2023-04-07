@@ -41,13 +41,7 @@ div.listleft :hover{
     text-decoration: none;
     color:#A47CB0;
 }
-li > .activebutton :hover{
-    text-decoration: none;
-    color:#ffffff;
-    background-color: #F36C27 ;
-    z-index: 1000;
 
-}
 .wrap-account5{
     margin-left: 0;
     box-sizing: border-box;
