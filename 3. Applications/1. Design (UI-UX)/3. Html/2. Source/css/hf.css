@@ -20,13 +20,14 @@ ul{
     list-style-type: none;
     line-height: 30px;
 }
-li{
+.size-logo-pay{
     line-height: 40px;
+    padding: 10px 10px 10px 10px;
 }
-li img{
+.size-logo-pay >img{
     width: 54px;
     height: 34px;
-    padding: 10px 10px 10px 10px;
+    
 }
 h4{
     color: #95BB3D;
@@ -697,14 +698,14 @@ a:hover{
     width: 25%;
     float: left;
     text-align: start;
-    position: relative  ;
+    position: relative;
 }
 .footer-column-wrap{
     position: relative;
     width: 100%;
     background-color: #EBEBEB; 
     height: fit-content;
-
+    margin-top:30px;
 }
 .footer-logo-wrap{
     width: 100%;
@@ -739,6 +740,7 @@ a:hover{
     justify-content: center;
     padding:10px 0 10px;
     width: 100%;
+    max-height: 120px;
     margin-top: 20px;
 }
 .sub-footer-container{
@@ -751,6 +753,7 @@ a:hover{
 }
 .sub-footer-left-container{
     margin-top:20px;
+    height: 100px;
     margin-bottom: 10px;
 }
 .sub-footer-left-container h4{
@@ -760,6 +763,8 @@ a:hover{
     width: 35%;
     position: relative;
     float: left;
+    height: 100px;
+    margin-bottom: 20px;
 }
 .sub-footer-right{
     width: 65%;
@@ -768,8 +773,8 @@ a:hover{
     justify-content:flex-end ;
     display: flex;
     align-items: end;
-    height: fit-content;
-    height: 70px;
+    height: 100px;
+    margin-bottom: 20px;
 }
 /* ------FAQ'S ----- */
 .FAQs{
@@ -1318,4 +1323,7 @@ a:hover{
 .S-P-cold-down-text{
     padding-left: 30px;
     line-height: 30px;
+}
+.sub-footer-ul{
+    height: 90px;
 }

@@ -1,0 +1,89 @@
+h6{
+    color: #95BB3D;
+}
+.container-wrap{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding:160px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.fix-left{
+    text-align: left;
+    margin-top: 10px;
+}
+.container{
+    position: relative;
+    width: 1024px;
+    height:415px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px 1px rgb(0 0 0 / 25%);
+    border-radius: 3px;
+    padding: 10px 0 10px 0;    
+}
+.wrap-logout{
+    width: 1024px;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+.wrap-form{
+    width: 100%;
+}
+.box-si{
+    box-sizing: border-box;
+    background-color: #EBEBEB;
+    box-sizing: border-box;
+    border:1px solid #50333333;
+    padding: 5px 0 5px 0;
+    text-align: end;
+}
+.go-to-cart-container{
+    width: 100%;
+}
+.go-to-cart-container-box{
+    width: 100%;
+    margin-left: -10px;
+}
+.gotocart{
+    color: #95BB3D;
+}
+.shopping-more-wrap{
+    text-align: center;
+}
+.wrap-account1{
+    padding: 20px 0 20px 0;
+    line-height: 20px;
+}
+.col-sm-12{
+    padding: 5px 0 5px 0;
+}
+.wrap-account5 > h6{
+    font-size: 30px;
+    line-height: 30px;
+}
+.remember-me{
+    padding-left: 100px;
+    text-align: left;
+}
+.btn{
+    background-color:#EB5999;
+    color:#ffffff;
+    font-size: 25px;
+    width: 150px;
+}
+div.wrap-buttonlogin{
+
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.wrap-buttonlogin :hover{
+    color:#ffffff;
+    background-color: #F36C27;
+}
