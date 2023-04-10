@@ -87,3 +87,25 @@ div.wrap-buttonlogin{
     color:#ffffff;
     background-color: #F36C27;
 }
+.text-O-C-A{
+    text-align: center;
+    color:#A47CB0;
+}
+.icon-for-login-account{
+    text-align: center;
+    color: #A47CB0;
+    font-size: 40px;   
+    padding:10px 0 10px 0;
+}
+.icon-for-login-account a{
+    padding: 10px 10px 10px 10px;
+}
+.create-new-account-fix{
+    text-align: center;
+    color: #A47CB0;
+    padding:10px 0 20px 0;
+}
+.create-new-account-fix a:hover{
+    color:#F36C27;
+    text-decoration: underline;
+}

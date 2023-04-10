@@ -1,4 +1,4 @@
-.login-wrap{
+.login-wrap ,.Fogot-pass-wrap{
     position: relative;
     width: 100%;
     margin: 0 auto;
@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
 }
-.Login-container{
+.Login-container ,.Fogot-pass-container{
     position: relative;
     width: 1024px;
     color: #95BB3D;
@@ -44,7 +44,7 @@ div.wrap-brandname{
     padding: 10px 0 10px 0;
     font-size: 2rem;
 }
-.login-to-continue-container{
+.login-to-continue-container , .forgot-pass-container{
     padding: 10px 0 10px 0;
     display: flex;
     justify-content: center;
@@ -77,20 +77,15 @@ div.wrap-logintocontinues{
     padding-bottom: 20px;
     margin-bottom: -10px;
 }
-div.wrap-buttonlogin :hover{
-    text-decoration: none;
-    background-color: #F36C27;
-}
 
 .button-login{
-    font:"Roboto", sans-serif;
     color:#ffffff;
 }
 .btn{
     background-color:#EB5999;
     color:#ffffff;
     font-size: 25px;
-    width: 150px;
+    width: fit-content;
     font:"Roboto", sans-serif;
 }
 .wrap-buttonlogin{
@@ -100,6 +95,7 @@ div.wrap-buttonlogin :hover{
 }
 .wrap-buttonlogin :hover{
     color:#ffffff;
+    text-decoration: none;
     background-color: #F36C27;
 }
 .col-sm-9{
