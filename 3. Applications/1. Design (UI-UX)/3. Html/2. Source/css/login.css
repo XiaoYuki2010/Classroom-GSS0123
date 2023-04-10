@@ -1,4 +1,4 @@
-.container-wrap{
+.login-wrap{
     position: relative;
     width: 100%;
     margin: 0 auto;
@@ -6,12 +6,10 @@
     display: flex;
     justify-content: center;
 }
-.container{
-    text-decoration: none;
-    color: #95BB3D;
-    padding: 10px 10px 10px 10px;
+.Login-container{
     position: relative;
     width: 1024px;
+    color: #95BB3D;
     height:fit-content;
     display:flex ;
     justify-content: center;
@@ -22,7 +20,6 @@
 }
 .justify-content-center{
     width: 1024px;
-    
 }
 .container-Forgot-pass{
     width: 100%;
@@ -35,36 +32,33 @@
     line-height: 25px;
     font:"Roboto", sans-serif !important;
 }
-
-div.col-sm-12{
+.box-si{
     box-sizing: border-box;
     background-color: #EBEBEB;
+    box-sizing: border-box;
+    border:1px solid #50333333;
+    padding: 5px 0 5px 0;
 }
 div.wrap-brandname{
     text-align: Center;
-    box-sizing: border-box;
-    border: 1px solid #c4b9b9;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding: 10px 0 10px 0;
     font-size: 2rem;
 }
+.login-to-continue-container{
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 div.wrap-logintocontinues{
-    text-align: center;
-    margin-bottom: 40px;
     font-size: 2rem;
+    padding-bottom: 40px;
 }
 .emailtitle{
     margin-left: 2rem;
 }
 .passwordtiltle{
     margin-left: 2rem;
-}
-div.rememberme{
-    text-align: right;
-    color: #A47CB0;
-}
-div.forgot{
-    color: #A47CB0;
 }
 .forgot a{
     text-align: left;
@@ -76,37 +70,69 @@ div.forgot{
     justify-content: center;
     
 }
-div.wrap-buttonlogin{
-    display: flex;
-    justify-content: center;
-    padding: 20px 10px 20px 10px;
-}
 .sent-request-button{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin-bottom: -10px;
-}
-.sent-request-button-align{
-
-}
-.wrap-buttonlogin{
-    text-decoration: none;
 }
 div.wrap-buttonlogin :hover{
     text-decoration: none;
     background-color: #F36C27;
 }
-button.btn{
-    background-color: #EB5999;
-    text-decoration: none;
+
+.button-login{
+    font:"Roboto", sans-serif;
+    color:#ffffff;
 }
-.button-login > span{
+.btn{
+    background-color:#EB5999;
+    color:#ffffff;
+    font-size: 25px;
+    width: 150px;
     font:"Roboto", sans-serif;
 }
-button.btn a{
+.wrap-buttonlogin{
     text-decoration: none;
-    color: #ffffff;
+    text-align: center;
+    margin: 20px 0 5px 0;
 }
-
+.wrap-buttonlogin :hover{
+    color:#ffffff;
+    background-color: #F36C27;
+}
+.col-sm-9{
+    padding: 10px 0 10px 0;
+}
+.re-fo-fix{
+    text-align: center;
+    color: #A47CB0;
+    font-size: 20px;
+}
+.forgot >a{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.text-O-C-A{
+    text-align: center;
+    color:#A47CB0;
+}
+.icon-for-login-account{
+    text-align: center;
+    color: #A47CB0;
+    font-size: 40px;   
+    padding:10px 0 10px 0;
+}
+.icon-for-login-account a{
+    padding: 10px 10px 10px 10px;
+}
+.create-new-account-fix{
+    text-align: center;
+    color: #A47CB0;
+    padding:10px 0 20px 0;
+}
+.create-new-account-fix a:hover{
+    color:#F36C27;
+    text-decoration: underline;
+}
