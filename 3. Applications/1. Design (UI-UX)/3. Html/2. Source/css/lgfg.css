@@ -88,6 +88,9 @@ div.wrap-logintocontinues{
     width: fit-content;
     font:"Roboto", sans-serif;
 }
+.btnsentrequest{
+    font-size: 0.8rem;
+}
 .wrap-buttonlogin{
     text-decoration: none;
     text-align: center;

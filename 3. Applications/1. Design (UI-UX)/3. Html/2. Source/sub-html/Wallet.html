@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/accountsub.css" type="text/css">
     <link rel="stylesheet" href="../css/hf.css" type="text/css">
-    <title>Change Password</title>
+    <title>My Wallet</title>
 </head>
 <body>
     <div class="wrap">
@@ -21,8 +21,8 @@
                 <div class="header-top">
                     <div class="header-top-left">
                         <span><a href="../account5.html">Account</a></span>
-                        <span><a href="Tracking Order.html">Track Order</a></span>
-                        <span><a href="../Customer-Support.html">Support</a></span>
+                        <span><a href="#">Track Order</a></span>
+                        <span><a href="#">Support</a></span>
                     </div> 
                     <div class="header-top-right">
                         <span><a>Lang</a></span>
@@ -49,7 +49,7 @@
                     <div class="header-bot-right">
                         <div class="header-bot-right-container">
                             <button type="submit" class="headerbutton heartbutton">
-                                <a href="../2. Source/sub-html/Wisht List.html"><i class="fa fa-heart"></i></a>
+                                <a href="Wisht List.html"><i class="fa fa-heart"></i></a>
                             </button>
                             <div class="button-space"></div>
                             <button type="submit" class="headerbutton bagbutton">
@@ -65,7 +65,7 @@
                 <div id="menu">
                     <div class="menu-container">
                         <ul class="menu-primary">
-                            <li class="menu-fix"><a href="#">Trang Chủ</a></li>
+                            <li class="menu-fix"><a href="../index.html">Trang Chủ</a></li>
                             <li class="menu-fix">
                                 <a href="#">Sản Phẩm</a>
                                 <ul class="sub-menu">
@@ -100,12 +100,12 @@
                             <ul class="list-group">
                                 <li class="list-group-item"><a href="../account5.html" class="linksbackground">Profile</a></li>
                                 <li class="list-group-item"><a href="account5.html" class="linksbackground"> Cart</a></li>
-                                <li class="list-group-item bg-light border"><a href="ChangePassword6.html" class="linksbackground">Change your Password</a></li>
+                                <li class="list-group-item "><a href="ChangePassword6.html" class="linksbackground">Change your Password</a></li>
                                 <li class="list-group-item"><a href="addressbook11.html" class="linksbackground">Address book</a></li>
                                 <li class="list-group-item"><a href="wishlist7.html" class="linksbackground">My wish List</a></li>
                                 <li class="list-group-item"><a href="orderlist8.html" class="linksbackground">My Order List</a></li>
                                 <li class="list-group-item"><a href="tracking9.html" class="linksbackground">Tracking Order</a></li>
-                                <li class="list-group-item"><a href="wallet10.html" class="linksbackground">My Wallet</a></li>
+                                <li class="list-group-item bg-light border"><a href="Wallet.html" class="linksbackground">My Wallet</a></li>
                                 <li class="list-group-item"><a href="Logout4.html" class="linksbackground">Log Out</a></li>
                             </ul>  
                         </div>
@@ -119,65 +119,50 @@
                             </div>  
                         </div>
                         <div class="col-sm-12 box-si">
-                            <div class="row  wrap-change-pass-title">
-                                <div class="wrap-change-pass-title-container">
-                                    <h6>Change Your Password</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 box-si">
-                            <div class="wrap-account1">
-                                <div class="col-sm-12 padding-for-box">
-                                    <div class="row">
-                                        <div class="col-sm-2">
-                                            <h6>
-                                                Current Password:
-                                            </h6>
-                                        </div>
-                                        <div class="col-sm-7">
-                                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Please Enter Current Password">
-                                        </div>
-                                        <div class="col-sm-3 confirm-password-text">
-                                            <a href="../sub-html/Fogotpassword3.html">
-                                                Forgot password?
-                                            </a>
-                                        </div>
+                            <div class="col-sm-12 wrapwallet">
+                                <div class="row ">
+                                    <div class="col-sm-6 wrap-mywallets">
+                                        <h6>My Wallets</h6>
                                     </div>
-                                </div>
-                                <div class="col-sm-12 padding-for-box">
-                                    <div class="row">
-                                        <div class="col-sm-2">
-                                            <h6>
-                                                New Password:
-                                            </h6>
-                                        </div>
-                                        <div class="col-sm-10">
-                                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Please Enter New Password">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 padding-for-box">
-                                    <div class="row">
-                                        <div class="col-sm-2">
-                                            <h6>
-                                                Confirm Password
-                                            </h6>
-                                        </div>
-                                        <div class="col-sm-10">
-                                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Please Re-enter Password">
-                                        </div>
+                                    <div class="col-sm-6 wrap-balance">
+                                        <h6>Wallets Balance:</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="col-sm-12 box-si">
+                        <div class="col-sm-12 box-size">
                             <div class="row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-3 wrap-buttonwallet">
                                     <div class="wrap-buttonsave">
-                                        <button type="button" class="btn">Save Profile</button>
+                                        <button type="button" class="btn btnwallet"><a href="../404.html"> Top Up</a></button>
                                     </div>
                                 </div>
+                                <div class="col-sm-3 wrap-buttonwallet">
+                                    <div class="wrap-buttonsave">
+                                        <button type="button" class="btn btnwallet"><a href="../404.html">Add Banks Card</a></button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 wrap-buttonwallet">
+                                    <div class="wrap-buttonsave">
+                                        <button type="button" class="btn btnwallet"><a href="../404.html">Transfer</a></button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 wrap-buttonwallet">
+                                    <div class="wrap-buttonsave">
+                                        <button type="button" class="btn btnwallet"><a href="../404.html">Withdraw</a></button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 wrap-paymethod">
+                                    <ul><h4 class="titlepaymethod">Payment Method</h4>
+                                        <li class="size-logo-pay">
+                                            <img src="../img/payment-card-discover.png" alt="">
+                                            <img src="../img/pay-visa.png" alt="">
+                                            <img src="../img/payment-card-mastecard.png" alt="">
+                                            <img src="../img/payment-napas.png" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                               
                             </div> 
                         </div>   
                     </div>
