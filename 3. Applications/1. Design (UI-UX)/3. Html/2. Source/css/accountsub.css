@@ -247,3 +247,40 @@ div.address1{
 /*-----------My order list-----------*/
 
 
+/*-----------My Wish list-----------*/
+
+
+
+/*-----------Tracking order-----------*/
+div.table-trackingorder{
+    margin-left: 0;
+    box-sizing: border-box;
+    border: 1px solid #c4b9b9;
+    text-align: center;
+  
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+.wrap-Trackingorder{
+    box-sizing: border-box;
+    border: 1px solid #c4b9b9;
+    margin-top:-0.4rem;
+    margin-left:11px;
+    width: 7em;
+}
+.table-titletracking th{
+    box-sizing: border-box;
+    border: 2px solid #0e0909;
+    margin-left:20px;
+}
+.trackingtable td{
+    box-sizing: border-box;
+    border: 1px solid #0e0909;
+    margin-left:2rem;
+    height: 7rem;
+    width:8rem;
+    align-items: center;
+}
+}
